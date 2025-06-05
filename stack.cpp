@@ -76,3 +76,10 @@ class Stack
 		}
 	}
 };
+
+int main()
+{
+	Stack Stack;
+
+	int choice = 0;
+	int value;
