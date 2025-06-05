@@ -93,3 +93,16 @@ int main()
 		cout << "Enter your choice: ";
 		cin >> choice;
 
+		switch (choice)
+		{
+			case 1:
+			cout << "Enter the value to push: ";
+			cin >> value;
+			Stack.push(value);
+			break;
+			case 2:
+			Stack.pop();
+			break;
+			case 3:
+			Stack.peek();
+			break;
