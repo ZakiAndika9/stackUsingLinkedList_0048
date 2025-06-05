@@ -17,3 +17,8 @@ class Node
 	}
 };
 
+//stack class
+class Stack
+{
+	private:
+	Node *top;
